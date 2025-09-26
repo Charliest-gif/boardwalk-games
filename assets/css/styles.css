@@ -6,7 +6,7 @@
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
     /* colors */
-    --primary-color: #222734;
+    --primary-color: #3a2620;
     --secondary-color: #aa9581;
     --highlight: #416a8e;
     --light-highlight: #7a9fc2;
@@ -36,4 +36,13 @@ body {
 
 .sub-heading-color {
     color: var(--highlight);
+}
+
+/* temp css */
+.container,
+.row {
+    border: 1px solid red;
+}
+.col-12 {
+    border: 1px solid blue;
 }
